@@ -1,3 +1,16 @@
+base-files (6.5ubuntu6.4) precise; urgency=low
+
+  * Mark /etc/os-release as a conffile, and migrate it in the preinst
+    for the benefit of people who tested the previous precise version
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 23 Oct 2012 22:52:07 +0100
+
+base-files (6.5ubuntu6.3) precise-proposed; urgency=low
+
+  * Install /etc/os-release. LP: #947236.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 09 Oct 2012 19:36:33 +0200
+
 base-files (6.5ubuntu6.2) precise-proposed; urgency=low
 
   * /etc/lsb-release, /etc/issue, /etc/issue.net: Bump version number to
