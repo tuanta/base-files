@@ -1,3 +1,10 @@
+base-files (6.5ubuntu6.5) precise; urgency=low
+
+  * /etc/issue, /etc/issue.net, /etc/lsb-release, /etc/os-release: Bump
+    version number to 12.04.2 in preparation for the point release.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 25 Jan 2013 11:07:10 +0000
+
 base-files (6.5ubuntu6.4) precise; urgency=low
 
   * Mark /etc/os-release as a conffile, and migrate it in the preinst
