@@ -28,6 +28,8 @@ case "$1" in
       elif dpkg --compare-versions "$2" le-nl "6.4ubuntu4"; then
           rm_if_matches_md5sum "/etc/update-motd.d/00-header" "4241925109d5d9fc869f20143dbd4054"
           rm_if_matches_md5sum "/etc/update-motd.d/10-help-text" "918a1e4bc361b759adff1fabbcd8fb8f"
+      elif dpkg --compare-versions "$2" eq "6.5ubuntu6.3"; then
+          rm_if_matches_md5sum "/etc/os-release" 4753a44a35d6394c737f205510d42d50
       fi
   ;;
 esac
