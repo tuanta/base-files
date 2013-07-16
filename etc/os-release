@@ -1,6 +1,6 @@
-NAME="elementary OS"
-VERSION="0.2 Luna"
-ID=elementary OS
+NAME="Gokien"
+VERSION="0.1 humpy"
+ID=Gokien
 ID_LIKE=ubuntu
-PRETTY_NAME="elementary OS Luna"
-VERSION_ID="0.2"
+PRETTY_NAME="Gokien humpy"
+VERSION_ID="0.1"
