@@ -1,3 +1,10 @@
+base-files (6.5ubuntu6.5+gokien1) precise; urgency=low
+
+  * Change distribution name and related info to Gokien's
+  * Add Gokien's dpkg origin
+
+ -- Trung Ngo <ndtrung4419@gmail.com>  Tue, 16 Jul 2013 23:02:11 +0700
+
 base-files (6.5ubuntu6.5) precise; urgency=low
 
   * /etc/issue, /etc/issue.net, /etc/lsb-release, /etc/os-release: Bump
