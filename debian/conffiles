@@ -2,6 +2,7 @@
 /etc/dpkg/origins/debian
 /etc/dpkg/origins/ubuntu
 /etc/dpkg/origins/elementary OS
+/etc/dpkg/origins/gokien
 /etc/host.conf
 /etc/issue
 /etc/issue.net
